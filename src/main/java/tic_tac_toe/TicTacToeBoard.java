@@ -17,7 +17,7 @@ public class TicTacToeBoard {
 	  }
 	  public static void main(String[] args) {
 		  TicTacToeBoard r=new TicTacToeBoard("xoxoxoxoX");
-		  System.out.println(r.evaluate());
+		  System.err.println(r.evaluate());
 	  }
 	  /**
 	   * Checks the state of the board (unreachable, no winner, X wins, or O wins)
